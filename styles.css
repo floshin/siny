@@ -189,7 +189,7 @@ header .top>section {
 }
 
 .acrolib h2 {
-  font-size: 100px;
+  font-size: 6em;
   font-weight: 700;
   font-family: "Futura", Helvetica, Arial, sans-serif;
   color: var(--dark);
