@@ -403,6 +403,8 @@ footer {
   padding: 5em 8em 7em;
   width: 100%;
   color: var(--light);
+  border-left: 10px solid var(--black);
+  border-right: 10px solid var(--black);
 }
 
 .history-wrapper {
@@ -730,7 +732,7 @@ hr {
 
   .acrobats .flosh section h3 {
     font-size: 32px;
-    
+    padding-top: 1em;
   }
 
 
@@ -830,7 +832,7 @@ hr {
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0;
-  padding: 0 0.3em;
+  padding: 0;
 }
 
 .acrobats .flosh .social img {
@@ -999,12 +1001,10 @@ main hr {
 .coaching-description {
   background: var(--dark);
   color: var(--light);
-  border: 10px solid var(--black);
   padding-bottom: 2em;
 }
 
 .testimonials {
-  border: 10px solid var(--black);
 }
 
 .testimonials ul {
@@ -1273,6 +1273,7 @@ and (max-width : 820px) {
 
   .history {
     padding: 2em 0 3em;
+    border: none;
   }
 
     .history-wrapper {
