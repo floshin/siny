@@ -480,45 +480,6 @@ and (max-width : 1024px) {
 
 }
 
-.achievements {
-}
-
-.achievements table {
-  font-size: 15px;
-  margin-top: 2em;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
-
-td:nth-child(even), th:nth-child(even) {
-  background-color: var(--ukr-yellow);
-  color: var(--black);
-}
-
-td:nth-child(even), th:nth-child(even):hover {
-  background-color: var(--ukr-yellow);
-}
-
-.achievements table th {
-  padding: 0.5em;
-  font-weight: normal;
-}
-
-.achievements table tr {
-  border: 1px solid var(--light);
-}
-
-
-.history a {
-  color: inherit;
-  min-width: 100%;
-}
-
-.history ul {
-  padding-top: 1em;
-  border: 3px solid var(--light);
-}
 
 iframe {
   filter: saturate(0%) contrast(120%);
@@ -850,44 +811,6 @@ hr {
   /* NORMAL: /*saturate(75%)*/ /*contrast(110%)*/
 }
 
-/* FLOSH IMAGE bigger BORDER */
-/*.about .acrobats ul .flosh {
-  padding: 0;
-  margin: 0;
-  filter: none;
-}*/
-
-/*
-.about .acrobats ul .flosh {
-  transition: .8s;
-  filter: grayscale(50%) contrast(110%);
-}
-*/
-
-.acrobats .flosh .sign {
-  margin: 0.5em 0 1em;
-  padding: 0;
-  max-width: 100px;
-}
-
-.acrobats .flosh .sign:hover {
-  opacity: 0.5;
-}
-
-.acrobats .flosh .social {
-  display: flex;
-  max-width: 150px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 0;
-  padding: 0;
-}
-
-.acrobats .flosh .social img {
-  max-width: 20px;
-  padding: 0;
-}
-
 
 
 @media only screen
@@ -903,28 +826,6 @@ and (min-width : 820px) {
   }
 
 
-  /*
-  .acrobats li>section {
-    opacity: 0;
-  }
-
-  .acrobats li>section:hover {
-    animation: acrobat-text 1s steps(60, end) forwards;
-    -webkit-user-select: none;
-    user-select: none;
-    animation-delay: 0s;
-  }
-
-    @keyframes acrobat-text {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-  
-*/
   .gallery figure { overflow: hidden; }
   .gallery img:hover { transform: scale(1.3); transition: 3s; }
 }
@@ -935,7 +836,7 @@ and (min-width : 820px) {
 
 
 /* IMAGE INVERSION ON CLICK */
-.about .acrobats ul li:active {
+.about .acrobats ul img:active {
   filter: saturate(100%) contrast(120%) grayscale(100%) invert(100%);
   transition: .8s;
 }
