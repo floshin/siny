@@ -1198,11 +1198,15 @@ and (max-width : 820px) {
     padding: 1em;
   }
   
-  .testimonials li, .classes li {
+  .testimonials li {
     max-width: initial;
     min-width: 85%;
   }
 
+  .classes li {
+    max--width: initial;
+    min-width: 70%;
+  }
 	
   .about-and-lib {
     max-height: none;
