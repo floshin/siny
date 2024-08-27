@@ -1312,7 +1312,7 @@ and (max-width : 820px) {
 
   .acrobats ul li, .acrobats .founders li {
     width: 100%;
-    border: none;
+   /* border: none; */
   }
 
   .acrobats li section {
