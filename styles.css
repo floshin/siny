@@ -969,12 +969,18 @@ main hr {
 
 /* COURSES */
 
+.classes {
+  background: var(--black);
+  color: var(--light);
+}
+
 .classes ul {
   display: flex;
   justify-content: space-around;
 }
 
 .classes li {
+  background: var(--dark);
   max-width: 30%;
   min-width: 29%;
 }
