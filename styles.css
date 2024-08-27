@@ -977,6 +977,7 @@ main hr {
 .classes ul {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 3em;
 }
 
 .classes li {
@@ -1185,21 +1186,24 @@ and (max-width : 820px) {
     border: none;
   }
 
-  .testimonials {
+  /* Classes & Testim. X-Scrolling */
+	
+  .testimonials, .classes {
     overflow-x: scroll;
   }
 
-  .testimonials ul {
+  .testimonials ul, .classes ul {
     justify-content: flex-start;
     gap: 1em;
     padding: 1em;
   }
   
-  .testimonials li {
+  .testimonials li, .classes li {
     max-width: initial;
     min-width: 85%;
   }
-  
+
+	
   .about-and-lib {
     max-height: none;
     max-width: initial;
