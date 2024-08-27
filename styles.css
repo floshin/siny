@@ -967,7 +967,22 @@ main hr {
   margin-top: -1em;
 }
 
+/* COURSES */
 
+.classes ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.classes li {
+  max-width: 30%;
+  min-width: 29%;
+}
+
+.classes caption {
+  padding: 1.5em 1em 1em;
+  margin: 0em;
+}
 
 
 nav {
