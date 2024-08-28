@@ -278,6 +278,10 @@ header {
 .gallery img { filter: saturate(0%); transition: .4s; }
 
 
+.caption {
+  padding: 0.5em;
+}
+
 
 
 
