@@ -989,9 +989,14 @@ main hr {
   margin: 0em;
 }
 
+.join-parent {
+  margin: 0 1em 3em;
+}
+
 .join {
   background: var(--ukr-blue);
   color: var(--black);
+  padding: 1em;
 }
 
 
