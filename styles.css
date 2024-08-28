@@ -278,12 +278,6 @@ header {
 .gallery img { filter: saturate(0%); transition: .4s; }
 
 
-.caption {
-  padding: 0.5em;
-}
-
-
-
 
 @media only screen
 and (min-width : 820px) {
@@ -991,8 +985,13 @@ main hr {
 }
 
 .classes caption {
-  padding: 1.5em 1em 1em;
+  padding: 1em;
   margin: 0em;
+}
+
+.join {
+  background: var(--ukr-blue);
+  color: var(--black);
 }
 
 
