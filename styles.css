@@ -877,7 +877,6 @@ main hr {
 /* COACHING SECTION */
 
 .coaching {
-  background: var(--black);
   width: 100%;
   display: flex;
   border-left: 10px solid var(--black);
@@ -956,7 +955,6 @@ main hr {
 }
 
 .testimonials li {
-  background: var(--light);
   max-width: 30%;
   min-width: 29%;
 }
@@ -999,6 +997,7 @@ main hr {
   background: var(--ukr-blue);
   color: var(--black);
   padding: 1em;
+  margin: 2em;
 }
 
 
