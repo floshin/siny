@@ -956,6 +956,7 @@ main hr {
 }
 
 .testimonials li {
+  background: var(--light);
   max-width: 30%;
   min-width: 29%;
 }
