@@ -897,7 +897,7 @@ main hr {
 }
 .coaching h3 {
   display: inline-block;
-  margin: 1em 2em;
+  margin: 2em 1.1em 0;
   padding: 0.5em;
   font-family: "Futura", Helvetica;
   border: 3px solid var(--dark);
