@@ -574,7 +574,7 @@ iframe {
 
 /* TESTIMONIAL QUOTES */
 
-testimonials {
+.testimonials {
   background: var(--black);
 }
 
