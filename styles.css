@@ -575,7 +575,7 @@ iframe {
 /* TESTIMONIAL QUOTES */
 
 .testimonials {
-  background: var(--black);
+  background: var(--light);
 }
 
 blockquote {
