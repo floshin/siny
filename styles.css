@@ -982,6 +982,7 @@ main hr {
   display: flex;
   justify-content: space-around;
   margin-bottom: 3em;
+  flex-wrap: wrap;
 }
 
 .classes li {
@@ -1212,6 +1213,10 @@ and (max-width : 820px) {
     gap: 1em;
     padding: 1em;
   }
+
+  .classes ul {
+    flex-wrap: nowrap;
+ }
   
   .testimonials li {
     max-width: initial;
