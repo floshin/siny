@@ -1,0 +1,83 @@
+/* SinY Textbook / 
+  css by Flosha */
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1E9DE;
+    color: #222222;
+    font-family: helvetica, arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    padding: 0 1.5em;
+}
+
+main {
+    max-width: 550px;
+    padding: 0 1.5em 3em 1.5em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+
+
+header img {
+    max-width: 100px;
+}
+
+nav {
+    text-transform: uppercase;
+    display: none;
+}
+
+
+h1 {
+    /*display: inline-block;*/
+    background-color: #222222;
+    padding: 0.5em 2em 0.3em;
+    max-width: auto;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 44px;
+    padding: 0 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+/* Button */
+h5 {
+    font-size: 15px;
+    background-color: #222222;
+    color: #fcfaf8;
+    padding: 1.2em 1.7em;
+    letter-spacing: 0.1em;
+}
+
