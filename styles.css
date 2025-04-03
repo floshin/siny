@@ -121,10 +121,6 @@ header .top>section:first-child {
 }
 
 
-
-
-
-
 .bigtext {
   font-size: 30px;
   font-family: "Futura", Helvetica;
@@ -1003,7 +999,7 @@ main hr {
   }
 
 .classes figure {
-   border-bottom: 5px solid var(--black);
+   border-bottom: 10px solid var(--black);
 }
 
 .classes figcaption {
