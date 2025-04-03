@@ -1002,11 +1002,14 @@ main hr {
     font-size: 14px;
   }
 
+.classes figure {
+   border-bottom: 5px solid var(--black);
+}
+
 .classes figcaption {
   padding: 1em;
   margin: 0;
   font-size: 14px;
-  border-bottom: 3px solid var(--black);
 }
 
 .join {
